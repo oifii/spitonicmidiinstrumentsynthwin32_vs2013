@@ -1,0 +1,345 @@
+﻿Build started 3/2/2016 6:12:47 PM.
+     1>Project "D:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\spitonicmidiinstrumentsynthwin32.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\spitonic.AD5E4A2A.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\lib-src\portaudio\include" /I"..\lib-src\freeimage\Source\\" /I..\spiwavsetlib /I"..\lib-src\portmidi\pm_common" /I"..\lib-src\portmidi\porttime" /I"..\lib-src\tonic\Tonic-master\Tonic-master\src" /I"..\lib-src\libsndfile\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\spitonicmidiinstrumentsynthwin32.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\lib-src\portaudio\include" /I"..\lib-src\freeimage\Source\\" /I..\spiwavsetlib /I"..\lib-src\portmidi\pm_common" /I"..\lib-src\portmidi\porttime" /I"..\lib-src\tonic\Tonic-master\Tonic-master\src" /I"..\lib-src\libsndfile\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt speartextpartialsreader.cpp spitonicmidiinstrumentsynthwin32.cpp
+         speartextpartialsreader.cpp
+     1>speartextpartialsreader.cpp(147): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>speartextpartialsreader.cpp(154): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         spitonicmidiinstrumentsynthwin32.cpp
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_wavset.h(56): warning C4251: 'WavSet::wavsetname' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'WavSet'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_instrument.h(38): warning C4251: 'Instrument::wavsetvector' : class 'std::vector<WavSet *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Instrument'
+                 with
+                 [
+                     _Ty=WavSet *
+                 ]
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_instrument.h(39): warning C4251: 'Instrument::instrumentname' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Instrument'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_instrumentset.h(14): warning C4251: 'InstrumentSet::instrumentvector' : class 'std::vector<Instrument *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InstrumentSet'
+                 with
+                 [
+                     _Ty=Instrument *
+                 ]
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_midieventset.h(16): warning C4251: 'MidiEventSet::midieventvector' : class 'std::vector<MidiEvent *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'MidiEventSet'
+                 with
+                 [
+                     _Ty=MidiEvent *
+                 ]
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partition.h(21): warning C4251: 'Partition::miditrackname' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Partition'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partition.h(22): warning C4251: 'Partition::partitionname' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Partition'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partition.h(23): warning C4251: 'Partition::midieventsetvector' : class 'std::vector<MidiEventSet *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Partition'
+                 with
+                 [
+                     _Ty=MidiEventSet *
+                 ]
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partitionset.h(24): warning C4251: 'PartitionSet::partitionvector' : class 'std::vector<Partition *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'PartitionSet'
+                 with
+                 [
+                     _Ty=Partition *
+                 ]
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partitionset.h(25): warning C4251: 'PartitionSet::tempmidieventvector' : class 'std::vector<MidiEvent *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'PartitionSet'
+                 with
+                 [
+                     _Ty=MidiEvent *
+                 ]
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/TonicCore.h(188): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/Arithmetic.h(51): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/Arithmetic.h(234): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/MonoToStereoPanner.h(45): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/RampedValue.h(66): warning C4244: 'initializing' : conversion from 'TonicFloat' to 'unsigned long', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/RampedValue.h(167): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/RampedValue.h(181): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\DelayUtils.h(60): warning C4244: 'argument' : conversion from 'size_t' to 'TonicFloat', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\DelayUtils.h(73): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\DelayUtils.h(75): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\DelayUtils.h(98): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\FilterUtils.h(35): warning C4244: '=' : conversion from 'double' to 'TonicFloat', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\FilterUtils.h(65): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/TableLookupOsc.h(112): warning C4244: '=' : conversion from 'double' to 'TonicFloat', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/SawtoothWave.h(92): warning C4244: '=' : conversion from 'double' to 'TonicFloat', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/Filters.h(33): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/Filters.h(89): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/Filters.h(401): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/BitCrusher.h(43): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/BitCrusher.h(47): warning C4244: 'initializing' : conversion from 'float' to 'TonicInt32', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/ADSR.h(99): warning C4800: 'TonicFloat' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/ADSR.h(100): warning C4800: 'TonicFloat' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/ADSR.h(101): warning C4800: 'TonicFloat' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/ADSR.h(143): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/LFNoise.h(44): warning C4244: '=' : conversion from 'TonicFloat' to 'long', possible loss of data
+     1>C:\Program Files\Microsoft Visual Studio 12.0\VC\include\algorithm(4108): warning C4244: 'argument' : conversion from 'long' to 'const float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/LFNoise.h(45): warning C4244: '=' : conversion from 'const float' to 'long', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/LFNoise.h(52): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/ControlDelay.h(51): warning C4244: 'initializing' : conversion from 'TonicFloat' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/ControlFloor.h(23): warning C4244: '=' : conversion from 'int' to 'TonicFloat', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/ControlMetro.h(42): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/ControlMetroDivider.h(44): warning C4244: 'initializing' : conversion from 'TonicFloat' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/ControlStepper.h(48): warning C4800: 'TonicFloat' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/ControlSnapToScale.h(42): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\Tonic/ControlSnapToScale.h(60): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherTestSynth.h(58): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherTestSynth.h(60): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherTestSynth.h(69): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherTestSynth.h(70): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherTestSynth.h(78): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherTestSynth.h(81): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherTestSynth.h(85): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherTestSynth.h(90): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherTestSynth.h(94): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherTestSynth.h(106): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherTestSynth.h(113): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherExpSynth.h(61): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherExpSynth.h(73): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherExpSynth.h(74): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherExpSynth.h(83): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherExpSynth.h(86): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherExpSynth.h(90): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherExpSynth.h(97): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherExpSynth.h(101): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherExpSynth.h(113): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSwitcherExpSynth.h(121): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\BasicSynth.h(48): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentSynth.h(65): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentSynth.h(68): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentBufferPlayerSynth.h(55): warning C4244: 'argument' : conversion from 'sf_count_t' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentBufferPlayerSynth.h(101): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentBufferPlayerSynth.h(106): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentBufferPlayerSynth.h(112): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentTableLookupSynth.h(91): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentTableLookupSynth.h(96): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentTableLookupSPEARSynth.h(134): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentTableLookupSPEARSynth.h(208): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentTableLookupSPEARSynth.h(242): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentTableLookupSPEARSynth.h(247): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentSineSumSPEARSynth.h(89): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentSineSumSPEARSynth.h(195): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentSineSumSPEARSynth.h(222): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentSineSumSPEARSynth.h(229): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentSineSumSynth.h(81): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentSineSumSynth.h(90): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentBasicSynth.h(71): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentBasicSynth.h(82): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentBasicSynth.h(91): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerSynth.h(55): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerSynth.h(71): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerSynth.h(95): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerSynth.h(98): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerExpSynth.h(55): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerExpSynth.h(71): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerExpSynth.h(97): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerExpSynth.h(100): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerBufferPlayerExpSynth.h(56): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerBufferPlayerExpSynth.h(68): warning C4244: 'argument' : conversion from 'sf_count_t' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerBufferPlayerExpSynth.h(99): warning C4244: 'argument' : conversion from 'sf_count_t' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerBufferPlayerEffectExpSynth.h(53): warning C4244: 'argument' : conversion from 'sf_count_t' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerBufferPlayerEffectExpSynth.h(73): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerBufferPlayerEffectExpSynth.h(184): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerBufferPlayerEffectExpSynth.h(185): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerBufferPlayerEffectExpSynth.h(187): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerBufferPlayerEffectExpSynth.h(188): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerBufferPlayerEffectExpSynth.h(191): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerBufferPlayerEffectExpSynth.h(199): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StepSequencerBufferPlayerEffectExpSynth.h(238): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\EventsExpSynth.h(73): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\EventsExpSynth.h(78): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\EventsExpSynth.h(103): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\BufferPlayerExpSynth.h(52): warning C4244: 'argument' : conversion from 'sf_count_t' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\BufferPlayerExpSynth.h(61): warning C4244: 'argument' : conversion from 'sf_count_t' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ArbitraryTableLookupSynth.h(63): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorDuckingTestSynth.h(47): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorDuckingTestSynth.h(48): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorDuckingTestSynth.h(49): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorDuckingTestSynth.h(57): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorDuckingTestSynth.h(58): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorDuckingTestSynth.h(61): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorDuckingTestSynth.h(70): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorDuckingTestSynth.h(72): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorDuckingTestSynth.h(74): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorTestSynth.h(47): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorTestSynth.h(49): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorTestSynth.h(61): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorTestSynth.h(63): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorTestSynth.h(64): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorTestSynth.h(72): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorTestSynth.h(75): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorExpSynth.h(48): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorExpSynth.h(50): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorExpSynth.h(64): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorExpSynth.h(67): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorExpSynth.h(69): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorExpSynth.h(77): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\CompressorExpSynth.h(80): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSnapToScaleTestSynth.h(46): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSnapToScaleTestSynth.h(61): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSnapToScaleTestSynth.h(67): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSnapToScaleTestSynth.h(69): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSnapToScaleTestSynth.h(100): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSnapToScaleTestSynth.h(102): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSnapToScaleTestSynth.h(106): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\ControlSnapToScaleTestSynth.h(120): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\DelayTestSynth.h(69): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\DelayTestSynth.h(76): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilteredNoiseSynth.h(65): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilteredNoiseSynth.h(66): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilteredNoiseSynth.h(72): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilteredNoiseSynth.h(83): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilteredNoiseSynth.h(90): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilteredNoiseSynth.h(91): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilteredNoiseSynth.h(92): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilteredNoiseSynth.h(100): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilteredNoiseSynth.h(103): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(53): warning C4244: 'argument' : conversion from 'sf_count_t' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(77): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(78): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(80): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(81): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(84): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(87): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(88): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(90): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(91): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(94): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(97): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(99): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(140): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(141): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(146): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\FilterExpSynth.h(151): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\LFNoiseTestSynth.h(53): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleStepSeqSynth.h(45): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleStepSeqSynth.h(58): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleStepSeqSynth.h(59): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StereoDelayTestSynth.h(53): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StereoDelayTestSynth.h(61): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StereoDelayTestSynth.h(62): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StereoDelayTestSynth.h(63): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StereoDelayTestSynth.h(64): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StereoDelayTestSynth.h(66): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\StereoDelayTestSynth.h(68): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SynthsAsGeneratorsDemoSynth.h(46): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SynthsAsGeneratorsDemoSynth.h(48): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\XYSpeedSynth.h(38): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\XYSpeedSynth.h(42): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>spitonicmidiinstrumentsynthwin32.cpp(373): warning C4101: 'i' : unreferenced local variable
+     1>spitonicmidiinstrumentsynthwin32.cpp(569): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(570): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(644): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(652): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(654): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(662): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(664): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(670): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(680): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(688): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(691): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(695): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(698): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(701): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(704): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(707): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(710): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(714): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(718): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(727): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(735): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(742): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(749): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(755): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(761): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(768): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(774): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(780): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(786): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(792): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(800): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(809): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(843): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>spitonicmidiinstrumentsynthwin32.cpp(844): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>spitonicmidiinstrumentsynthwin32.cpp(879): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(923): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(931): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(933): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(85) : see declaration of 'swprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(940): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(85) : see declaration of 'swprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(946): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(950): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(85) : see declaration of 'swprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(955): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(963): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(85) : see declaration of 'swprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(997): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\swprintf.inl(85) : see declaration of 'swprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(1000): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>spitonicmidiinstrumentsynthwin32.cpp(1001): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>spitonicmidiinstrumentsynthwin32.cpp(1008): warning C4244: 'argument' : conversion from 'float' to 'DWORD', possible loss of data
+     1>spitonicmidiinstrumentsynthwin32.cpp(1221): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\string.h(294) : see declaration of 'wcscpy'
+     1>spitonicmidiinstrumentsynthwin32.cpp(1225): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\string.h(294) : see declaration of 'wcscpy'
+     1>spitonicmidiinstrumentsynthwin32.cpp(1250): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>spitonicmidiinstrumentsynthwin32.cpp(1291): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(1307): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>spitonicmidiinstrumentsynthwin32.cpp(1112): warning C4101: 'i' : unreferenced local variable
+     1>spitonicmidiinstrumentsynthwin32.cpp(1478): warning C4101: 'hFont' : unreferenced local variable
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\spitonicmidiinstrumentsynthwin32.res" spitonicmidiinstrumentsynthwin32.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\Release\spitonicmidiinstrumentsynthwin32.exe" /INCREMENTAL:NO /NOLOGO "..\lib-src\freeimage\Dist\FreeImage.lib" winmm.lib ..\spiwavsetlib\release\spiwavsetlib.lib "..\lib-src\portaudio\build\msvc\Win32\Release\portaudio_x86.lib" "..\lib-src\portmidi\Release\portmidi_s.lib" "..\lib-src\tonic\Tonic-master\Tonic-master\lib\TonicLibVS2013\Release\TonicLib.lib" "..\lib-src\libsndfile\libsndfile-1.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\Release\spitonicmidiinstrumentsynthwin32.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\Release\spitonicmidiinstrumentsynthwin32.lib" /MACHINE:X86 /SAFESEH Release\spitonicmidiinstrumentsynthwin32.res
+         Release\speartextpartialsreader.obj
+         Release\spitonicmidiinstrumentsynthwin32.obj
+         Release\stdafx.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+         spitonicmidiinstrumentsynthwin32.vcxproj -> D:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\Release\spitonicmidiinstrumentsynthwin32.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\spitonic.AD5E4A2A.tlog\unsuccessfulbuild".
+         Touching "Release\spitonic.AD5E4A2A.tlog\spitonicmidiinstrumentsynthwin32.lastbuildstate".
+     1>Done Building Project "D:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\spitonicmidiinstrumentsynthwin32.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.22

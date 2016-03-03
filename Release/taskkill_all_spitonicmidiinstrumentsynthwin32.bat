@@ -1,0 +1,1 @@
+taskkill /im spitonicmidiinstrumentsynthwin32.exe
