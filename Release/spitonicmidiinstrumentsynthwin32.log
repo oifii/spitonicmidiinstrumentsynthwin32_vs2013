@@ -1,45 +1,41 @@
-﻿Build started 3/2/2016 6:12:47 PM.
+﻿Build started 11/27/2016 3:05:23 PM.
      1>Project "D:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\spitonicmidiinstrumentsynthwin32.vcxproj" on node 2 (Build target(s)).
      1>InitializeBuildStatus:
          Creating "Release\spitonic.AD5E4A2A.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\lib-src\portaudio\include" /I"..\lib-src\freeimage\Source\\" /I..\spiwavsetlib /I"..\lib-src\portmidi\pm_common" /I"..\lib-src\portmidi\porttime" /I"..\lib-src\tonic\Tonic-master\Tonic-master\src" /I"..\lib-src\libsndfile\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\spitonicmidiinstrumentsynthwin32.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\lib-src\portaudio\include" /I"..\lib-src\freeimage\Source\\" /I..\spiwavsetlib /I"..\lib-src\portmidi\pm_common" /I"..\lib-src\portmidi\porttime" /I"..\lib-src\tonic\Tonic-master\Tonic-master\src" /I"..\lib-src\libsndfile\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt speartextpartialsreader.cpp spitonicmidiinstrumentsynthwin32.cpp
-         speartextpartialsreader.cpp
-     1>speartextpartialsreader.cpp(147): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>speartextpartialsreader.cpp(154): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         All outputs are up-to-date.
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\lib-src\portaudio\include" /I"..\lib-src\freeimage\Source\\" /I..\spiwavsetlib /I"..\lib-src\portmidi\pm_common" /I"..\lib-src\portmidi\porttime" /I"..\lib-src\tonic\Tonic-master\Tonic-master\src" /I"..\lib-src\libsndfile\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt spitonicmidiinstrumentsynthwin32.cpp
          spitonicmidiinstrumentsynthwin32.cpp
-     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_wavset.h(56): warning C4251: 'WavSet::wavsetname' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'WavSet'
-     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_instrument.h(38): warning C4251: 'Instrument::wavsetvector' : class 'std::vector<WavSet *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Instrument'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_wavset.h(80): warning C4251: 'WavSet::wavsetname' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'WavSet'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_instrument.h(62): warning C4251: 'Instrument::wavsetvector' : class 'std::vector<WavSet *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Instrument'
                  with
                  [
                      _Ty=WavSet *
                  ]
-     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_instrument.h(39): warning C4251: 'Instrument::instrumentname' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Instrument'
-     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_instrumentset.h(14): warning C4251: 'InstrumentSet::instrumentvector' : class 'std::vector<Instrument *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InstrumentSet'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_instrument.h(63): warning C4251: 'Instrument::instrumentname' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Instrument'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_instrumentset.h(38): warning C4251: 'InstrumentSet::instrumentvector' : class 'std::vector<Instrument *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InstrumentSet'
                  with
                  [
                      _Ty=Instrument *
                  ]
-     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_midieventset.h(16): warning C4251: 'MidiEventSet::midieventvector' : class 'std::vector<MidiEvent *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'MidiEventSet'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_midieventset.h(40): warning C4251: 'MidiEventSet::midieventvector' : class 'std::vector<MidiEvent *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'MidiEventSet'
                  with
                  [
                      _Ty=MidiEvent *
                  ]
-     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partition.h(21): warning C4251: 'Partition::miditrackname' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Partition'
-     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partition.h(22): warning C4251: 'Partition::partitionname' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Partition'
-     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partition.h(23): warning C4251: 'Partition::midieventsetvector' : class 'std::vector<MidiEventSet *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Partition'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partition.h(45): warning C4251: 'Partition::miditrackname' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Partition'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partition.h(46): warning C4251: 'Partition::partitionname' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Partition'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partition.h(47): warning C4251: 'Partition::midieventsetvector' : class 'std::vector<MidiEventSet *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Partition'
                  with
                  [
                      _Ty=MidiEventSet *
                  ]
-     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partitionset.h(24): warning C4251: 'PartitionSet::partitionvector' : class 'std::vector<Partition *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'PartitionSet'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partitionset.h(48): warning C4251: 'PartitionSet::partitionvector' : class 'std::vector<Partition *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'PartitionSet'
                  with
                  [
                      _Ty=Partition *
                  ]
-     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partitionset.h(25): warning C4251: 'PartitionSet::tempmidieventvector' : class 'std::vector<MidiEvent *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'PartitionSet'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partitionset.h(49): warning C4251: 'PartitionSet::tempmidieventvector' : class 'std::vector<MidiEvent *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'PartitionSet'
                  with
                  [
                      _Ty=MidiEvent *
@@ -104,15 +100,14 @@
      1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentSynth.h(65): warning C4305: 'argument' : truncation from 'double' to 'float'
      1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentSynth.h(68): warning C4305: 'argument' : truncation from 'double' to 'float'
      1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentBufferPlayerSynth.h(55): warning C4244: 'argument' : conversion from 'sf_count_t' to 'unsigned int', possible loss of data
-     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentBufferPlayerSynth.h(101): warning C4305: 'argument' : truncation from 'double' to 'float'
      1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentBufferPlayerSynth.h(106): warning C4305: 'argument' : truncation from 'double' to 'float'
      1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentBufferPlayerSynth.h(112): warning C4305: 'argument' : truncation from 'double' to 'float'
      1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentTableLookupSynth.h(91): warning C4305: 'argument' : truncation from 'double' to 'float'
      1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentTableLookupSynth.h(96): warning C4305: 'argument' : truncation from 'double' to 'float'
-     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentTableLookupSPEARSynth.h(134): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentTableLookupSPEARSynth.h(208): warning C4018: '<' : signed/unsigned mismatch
-     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentTableLookupSPEARSynth.h(242): warning C4305: 'argument' : truncation from 'double' to 'float'
-     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentTableLookupSPEARSynth.h(247): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentTableLookupSPEARSynth.h(196): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentTableLookupSPEARSynth.h(217): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentTableLookupSPEARSynth.h(252): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentTableLookupSPEARSynth.h(257): warning C4305: 'argument' : truncation from 'double' to 'float'
      1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentSineSumSPEARSynth.h(89): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
      1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentSineSumSPEARSynth.h(195): warning C4018: '<' : signed/unsigned mismatch
      1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\SimpleInstrumentSineSumSPEARSynth.h(222): warning C4305: 'argument' : truncation from 'double' to 'float'
@@ -325,7 +320,7 @@
      1>spitonicmidiinstrumentsynthwin32.cpp(1112): warning C4101: 'i' : unreferenced local variable
      1>spitonicmidiinstrumentsynthwin32.cpp(1478): warning C4101: 'hFont' : unreferenced local variable
        ResourceCompile:
-         C:\Program Files\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\spitonicmidiinstrumentsynthwin32.res" spitonicmidiinstrumentsynthwin32.rc 
+         All outputs are up-to-date.
        Link:
          C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\Release\spitonicmidiinstrumentsynthwin32.exe" /INCREMENTAL:NO /NOLOGO "..\lib-src\freeimage\Dist\FreeImage.lib" winmm.lib ..\spiwavsetlib\release\spiwavsetlib.lib "..\lib-src\portaudio\build\msvc\Win32\Release\portaudio_x86.lib" "..\lib-src\portmidi\Release\portmidi_s.lib" "..\lib-src\tonic\Tonic-master\Tonic-master\lib\TonicLibVS2013\Release\TonicLib.lib" "..\lib-src\libsndfile\libsndfile-1.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\Release\spitonicmidiinstrumentsynthwin32.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicmidiinstrumentsynthwin32_vs2013\Release\spitonicmidiinstrumentsynthwin32.lib" /MACHINE:X86 /SAFESEH Release\spitonicmidiinstrumentsynthwin32.res
          Release\speartextpartialsreader.obj
@@ -342,4 +337,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:15.22
+Time Elapsed 00:00:10.98

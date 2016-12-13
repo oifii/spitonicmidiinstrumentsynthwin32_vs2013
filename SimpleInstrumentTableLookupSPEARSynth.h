@@ -127,13 +127,21 @@ public:
 		}
 		*/
 		
+		/*
+		//SpearTextPartialsReader mySpearTextPartialsReader("ATC 132_ms0_072_c4(partials).txt");
+		//SpearTextPartialsReader mySpearTextPartialsReader("PersianNey B3 Vel_2(partials).txt");
+		//SpearTextPartialsReader mySpearTextPartialsReader("LHkora B3 Vel_1(partials).txt");
 		SpearTextPartialsReader mySpearTextPartialsReader("Analog Strings 2_ms0_072_c4(partials).txt"); //good
+		//2016nov06, spi, begin
+		//commenting out this normalization
 		//C4 is 261.6 Hz
 		for (vector<float>::iterator it = mySpearTextPartialsReader.partialfrequencies.begin(), end = mySpearTextPartialsReader.partialfrequencies.end(); it != end; ++it)
 		{
 			(*it) = (*it) / 261.6;
 			//std::cout << (*it) << "\n";  
 		}
+		*/
+		//2016nov06, spi, end
 		
 		/*
 		SpearTextPartialsReader mySpearTextPartialsReader("kick 1(partials).txt"); 
@@ -180,7 +188,7 @@ public:
 			//std::cout << (*it) << "\n";  
 		}
 		*/
-		/*
+		
 		SpearTextPartialsReader mySpearTextPartialsReader("KB-6_sforz_fp_B1(partials).txt");
 		//B1 is 61.74 Hz
 		for (vector<float>::iterator it = mySpearTextPartialsReader.partialfrequencies.begin(), end = mySpearTextPartialsReader.partialfrequencies.end(); it != end; ++it)
@@ -188,11 +196,11 @@ public:
 			(*it) = (*it) / 61.74;
 			//std::cout << (*it) << "\n";  
 		}
-		*/
+		
 		//1) Build a table of arbitrary length. TableLookupOsc requires power-of-two+1 length tables, but they will be resized if necessary.
 		// Try changing this to 2049 and compare the sound. Should be perceptually almost identical.
 		//const unsigned int tablesize = 2500;
-		const unsigned int tablesize = 2500;
+		const unsigned int tablesize = 2049;
 
 		// You can register this in a collection if you want to use it in a few oscillators
 		SampleTable lookupTable = SampleTable(tablesize, 1);
@@ -202,12 +210,14 @@ public:
 		for (unsigned int i = 0; i<tablesize; i++){
 
 			// sum a few sine waves
-			TonicFloat phase = TWO_PI * i * norm;
+			TonicFloat phase = TWO_PI * i * norm; //original
+			//TonicFloat phase = TWO_PI * i * norm / 44100.0; //spi, 2016nov07
 			//*tableData++ = 0.75f * sinf(phase) + 0.5f * sinf(phase * 2) + 0.25f * sinf(phase * 5); //original
 			TonicFloat sinesum = 0.0f;
 			for (int ii = 0; ii<mySpearTextPartialsReader.partialfrequencies.size(); ii++)
 			{
 				sinesum += mySpearTextPartialsReader.partialamplitudes[ii] * sinf(phase * mySpearTextPartialsReader.partialfrequencies[ii]);
+				//sinesum += mySpearTextPartialsReader.partialamplitudes[ii] * sinf(ii * phase * mySpearTextPartialsReader.partialfrequencies[ii]); //spi, 2016nov07
 				//sinesum += mySpearTextPartialsReader.partialamplitudes[ii] * sinf(phase * floor(mySpearTextPartialsReader.partialfrequencies[ii]));
 				//std::cout << ii << ", " << mySpearTextPartialsReader.partialfrequencies[ii] << ", " << mySpearTextPartialsReader.partialamplitudes[ii] << "\n";
 			}

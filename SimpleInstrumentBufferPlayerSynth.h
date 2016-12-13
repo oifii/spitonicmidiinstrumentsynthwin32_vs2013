@@ -98,7 +98,7 @@ public:
 		//tone = BPF24().input(tone).Q(1).cutoff((noteFreq) + SineWave().freq(10) * 0.5 * noteFreq); //good 
 		//tone = BPF24().input(tone).Q(0.1).cutoff((noteFreq)+SineWave().freq(1) * 0.5 * noteFreq);  
 		//tone = BPF24().input(tone).Q(0.1).cutoff((noteFreq)+SineWave().freq(127) * 0.5 * noteFreq);
-		tone = BPF24().input(tone).Q(0.1).cutoff((noteFreq)+SineWave().freq(127-midiNoteVelocity) * 0.5 * noteFreq);
+		//tone = BPF24().input(tone).Q(0.1).cutoff((noteFreq)+SineWave().freq(127-midiNoteVelocity) * 0.5 * noteFreq);
 
 		// It's just a steady tone until we modulate the amplitude with an envelope
 		//ControlGenerator envelopeTrigger = addParameter("trigger");
